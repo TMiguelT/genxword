@@ -30,7 +30,7 @@ gettext.bindtextdomain('genxword', os.path.join(d, 'locale'))
 gettext.textdomain('genxword')
 _ = gettext.gettext
 
-class Genxword(object):
+class Genxword:
     def __init__(self, auto=False, mixmode=False):
         self.auto = auto
         self.mixmode = mixmode
